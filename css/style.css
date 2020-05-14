@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+main{
+	width: 100%;
+	background: url(../img/bg.jpg) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	font-family: 'Microsoft JhengHei';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	width: 70%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+form input{
+	width: calc(100% - 50px);
+	padding: 10px;
+	display: block;
+	background-color: rgba(255,255,255,.85);
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 30px auto;
+}
+form button{
+	display: block;
+	margin: 10px auto;
+	background-color: rgba(255,255,255,.85);
+	font-size: 20px;
+	border: 1px solid rgba(255,255,255,.85);
+	border-radius: 10px;
+	padding: 5px;
+	cursor: pointer;
+	width: 100px;
+	color: #FFF;
+	color: #000;
+	transition: all .2s ease-in-out;
+}
+form button:hover{
+	background-color: rgba(255,255,255,.7);
+}
